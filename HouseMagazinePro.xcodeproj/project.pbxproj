@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		108882F8183C855E005FDD9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 108882F7183C855E005FDD9A /* Foundation.framework */; };
+		108882FA183C855E005FDD9A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 108882F9183C855E005FDD9A /* CoreGraphics.framework */; };
+		108882FC183C855E005FDD9A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 108882FB183C855E005FDD9A /* UIKit.framework */; };
+		10888302183C855E005FDD9A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 10888300183C855E005FDD9A /* InfoPlist.strings */; };
+		10888304183C855E005FDD9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 10888303183C855E005FDD9A /* main.m */; };
+		10888308183C855E005FDD9A /* MYLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10888307183C855E005FDD9A /* MYLAppDelegate.m */; };
+		1088830A183C855E005FDD9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10888309183C855E005FDD9A /* Images.xcassets */; };
+		10888311183C855E005FDD9A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10888310183C855E005FDD9A /* XCTest.framework */; };
+		10888312183C855E005FDD9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 108882F7183C855E005FDD9A /* Foundation.framework */; };
+		10888313183C855E005FDD9A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 108882FB183C855E005FDD9A /* UIKit.framework */; };
+		1088831B183C855E005FDD9A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 10888319183C855E005FDD9A /* InfoPlist.strings */; };
+		1088831D183C855E005FDD9A /* HouseMagazineProTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1088831C183C855E005FDD9A /* HouseMagazineProTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		10888314183C855E005FDD9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 108882EC183C855E005FDD9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 108882F3183C855E005FDD9A;
+			remoteInfo = HouseMagazinePro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		108882F4183C855E005FDD9A /* HouseMagazinePro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HouseMagazinePro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		108882F7183C855E005FDD9A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		108882F9183C855E005FDD9A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		108882FB183C855E005FDD9A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		108882FF183C855E005FDD9A /* HouseMagazinePro-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HouseMagazinePro-Info.plist"; sourceTree = "<group>"; };
+		10888301183C855E005FDD9A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		10888303183C855E005FDD9A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		10888305183C855E005FDD9A /* HouseMagazinePro-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HouseMagazinePro-Prefix.pch"; sourceTree = "<group>"; };
+		10888306183C855E005FDD9A /* MYLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MYLAppDelegate.h; sourceTree = "<group>"; };
+		10888307183C855E005FDD9A /* MYLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYLAppDelegate.m; sourceTree = "<group>"; };
+		10888309183C855E005FDD9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1088830F183C855E005FDD9A /* HouseMagazineProTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HouseMagazineProTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		10888310183C855E005FDD9A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		10888318183C855E005FDD9A /* HouseMagazineProTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HouseMagazineProTests-Info.plist"; sourceTree = "<group>"; };
+		1088831A183C855E005FDD9A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1088831C183C855E005FDD9A /* HouseMagazineProTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HouseMagazineProTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		108882F1183C855E005FDD9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				108882FA183C855E005FDD9A /* CoreGraphics.framework in Frameworks */,
+				108882FC183C855E005FDD9A /* UIKit.framework in Frameworks */,
+				108882F8183C855E005FDD9A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1088830C183C855E005FDD9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10888311183C855E005FDD9A /* XCTest.framework in Frameworks */,
+				10888313183C855E005FDD9A /* UIKit.framework in Frameworks */,
+				10888312183C855E005FDD9A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		108882EB183C855E005FDD9A = {
+			isa = PBXGroup;
+			children = (
+				108882FD183C855E005FDD9A /* HouseMagazinePro */,
+				10888316183C855E005FDD9A /* HouseMagazineProTests */,
+				108882F6183C855E005FDD9A /* Frameworks */,
+				108882F5183C855E005FDD9A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		108882F5183C855E005FDD9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				108882F4183C855E005FDD9A /* HouseMagazinePro.app */,
+				1088830F183C855E005FDD9A /* HouseMagazineProTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		108882F6183C855E005FDD9A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				108882F7183C855E005FDD9A /* Foundation.framework */,
+				108882F9183C855E005FDD9A /* CoreGraphics.framework */,
+				108882FB183C855E005FDD9A /* UIKit.framework */,
+				10888310183C855E005FDD9A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		108882FD183C855E005FDD9A /* HouseMagazinePro */ = {
+			isa = PBXGroup;
+			children = (
+				10888306183C855E005FDD9A /* MYLAppDelegate.h */,
+				10888307183C855E005FDD9A /* MYLAppDelegate.m */,
+				10888309183C855E005FDD9A /* Images.xcassets */,
+				108882FE183C855E005FDD9A /* Supporting Files */,
+			);
+			path = HouseMagazinePro;
+			sourceTree = "<group>";
+		};
+		108882FE183C855E005FDD9A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				108882FF183C855E005FDD9A /* HouseMagazinePro-Info.plist */,
+				10888300183C855E005FDD9A /* InfoPlist.strings */,
+				10888303183C855E005FDD9A /* main.m */,
+				10888305183C855E005FDD9A /* HouseMagazinePro-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		10888316183C855E005FDD9A /* HouseMagazineProTests */ = {
+			isa = PBXGroup;
+			children = (
+				1088831C183C855E005FDD9A /* HouseMagazineProTests.m */,
+				10888317183C855E005FDD9A /* Supporting Files */,
+			);
+			path = HouseMagazineProTests;
+			sourceTree = "<group>";
+		};
+		10888317183C855E005FDD9A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				10888318183C855E005FDD9A /* HouseMagazineProTests-Info.plist */,
+				10888319183C855E005FDD9A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		108882F3183C855E005FDD9A /* HouseMagazinePro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10888320183C855E005FDD9A /* Build configuration list for PBXNativeTarget "HouseMagazinePro" */;
+			buildPhases = (
+				108882F0183C855E005FDD9A /* Sources */,
+				108882F1183C855E005FDD9A /* Frameworks */,
+				108882F2183C855E005FDD9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HouseMagazinePro;
+			productName = HouseMagazinePro;
+			productReference = 108882F4183C855E005FDD9A /* HouseMagazinePro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1088830E183C855E005FDD9A /* HouseMagazineProTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10888323183C855E005FDD9A /* Build configuration list for PBXNativeTarget "HouseMagazineProTests" */;
+			buildPhases = (
+				1088830B183C855E005FDD9A /* Sources */,
+				1088830C183C855E005FDD9A /* Frameworks */,
+				1088830D183C855E005FDD9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10888315183C855E005FDD9A /* PBXTargetDependency */,
+			);
+			name = HouseMagazineProTests;
+			productName = HouseMagazineProTests;
+			productReference = 1088830F183C855E005FDD9A /* HouseMagazineProTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		108882EC183C855E005FDD9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MYL;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Yubk;
+				TargetAttributes = {
+					1088830E183C855E005FDD9A = {
+						TestTargetID = 108882F3183C855E005FDD9A;
+					};
+				};
+			};
+			buildConfigurationList = 108882EF183C855E005FDD9A /* Build configuration list for PBXProject "HouseMagazinePro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 108882EB183C855E005FDD9A;
+			productRefGroup = 108882F5183C855E005FDD9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				108882F3183C855E005FDD9A /* HouseMagazinePro */,
+				1088830E183C855E005FDD9A /* HouseMagazineProTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		108882F2183C855E005FDD9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10888302183C855E005FDD9A /* InfoPlist.strings in Resources */,
+				1088830A183C855E005FDD9A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1088830D183C855E005FDD9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1088831B183C855E005FDD9A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		108882F0183C855E005FDD9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10888304183C855E005FDD9A /* main.m in Sources */,
+				10888308183C855E005FDD9A /* MYLAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1088830B183C855E005FDD9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1088831D183C855E005FDD9A /* HouseMagazineProTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		10888315183C855E005FDD9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 108882F3183C855E005FDD9A /* HouseMagazinePro */;
+			targetProxy = 10888314183C855E005FDD9A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		10888300183C855E005FDD9A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10888301183C855E005FDD9A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		10888319183C855E005FDD9A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1088831A183C855E005FDD9A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1088831E183C855E005FDD9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1088831F183C855E005FDD9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		10888321183C855E005FDD9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HouseMagazinePro/HouseMagazinePro-Prefix.pch";
+				INFOPLIST_FILE = "HouseMagazinePro/HouseMagazinePro-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		10888322183C855E005FDD9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HouseMagazinePro/HouseMagazinePro-Prefix.pch";
+				INFOPLIST_FILE = "HouseMagazinePro/HouseMagazinePro-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		10888324183C855E005FDD9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HouseMagazinePro.app/HouseMagazinePro";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HouseMagazinePro/HouseMagazinePro-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HouseMagazineProTests/HouseMagazineProTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		10888325183C855E005FDD9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HouseMagazinePro.app/HouseMagazinePro";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HouseMagazinePro/HouseMagazinePro-Prefix.pch";
+				INFOPLIST_FILE = "HouseMagazineProTests/HouseMagazineProTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		108882EF183C855E005FDD9A /* Build configuration list for PBXProject "HouseMagazinePro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1088831E183C855E005FDD9A /* Debug */,
+				1088831F183C855E005FDD9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10888320183C855E005FDD9A /* Build configuration list for PBXNativeTarget "HouseMagazinePro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10888321183C855E005FDD9A /* Debug */,
+				10888322183C855E005FDD9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		10888323183C855E005FDD9A /* Build configuration list for PBXNativeTarget "HouseMagazineProTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10888324183C855E005FDD9A /* Debug */,
+				10888325183C855E005FDD9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 108882EC183C855E005FDD9A /* Project object */;
+}
