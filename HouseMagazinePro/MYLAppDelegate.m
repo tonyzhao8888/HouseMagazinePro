@@ -7,18 +7,105 @@
 //
 
 #import "MYLAppDelegate.h"
+#import "DEMOFirstViewController.h"
+#import "DEMOMenuViewController.h"
+#import <QuartzCore/QuartzCore.h>
 
 @implementation MYLAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
+
+    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:[[DEMOFirstViewController alloc] init]];
+    UIImage *backImg1 = [UIImage imageWithContentsOfFile:[[NSBundle mainBundle]pathForResource:@"NavBG" ofType:@"png"]];
+        [navigationController.navigationBar setBackgroundImage:backImg1 forBarMetrics:UIBarMetricsDefault];
+    DEMOMenuViewController *menuViewController = [[DEMOMenuViewController alloc] init];
+   
+    RESideMenu *sideMenuViewController = [[RESideMenu alloc] initWithContentViewController:navigationController menuViewController:menuViewController];
+    sideMenuViewController.backgroundImage = [UIImage imageNamed:@"MenuBG.jpg"];
+    sideMenuViewController.delegate = self;
+    self.window.rootViewController = sideMenuViewController;
+    [self.window makeKeyAndVisible];
+    
+    fView =[[UIImageView alloc]initWithFrame:self.window.frame];//初始化fView
+    fView.image=[UIImage imageNamed:@"f.png"];//图片f.png 到fView
+    
+    zView=[[UIImageView alloc]initWithFrame:self.window.frame];//初始化zView
+    zView.image=[UIImage imageNamed:@"z.png"];//图片z.png 到zView
+    
+    rView=[[UIView alloc]initWithFrame:self.window.frame];//初始化rView
+    
+    [rView addSubview:fView];//add 到rView
+    [rView addSubview:zView];//add 到rView
+    
+    [self.window addSubview:rView];//add 到window
+    
+    [self performSelector:@selector(TheAnimation) withObject:nil afterDelay:5];//5秒后执行TheAnimation
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
 }
+- (void)TheAnimation{
+    
+    CATransition *animation = [CATransition animation];
+    animation.delegate = self;
+    animation.duration = 0.7 ;  // 动画持续时间(秒)
+    animation.timingFunction = UIViewAnimationCurveEaseInOut;
+    animation.type = kCATransitionFade;//淡入淡出效果
+    
+    NSUInteger f = [[rView subviews] indexOfObject:fView];
+    NSUInteger z = [[rView subviews] indexOfObject:zView];
+    [rView exchangeSubviewAtIndex:z withSubviewAtIndex:f];
+    
+    [[rView layer] addAnimation:animation forKey:@"animation"];
+    
+    [self performSelector:@selector(ToUpSide) withObject:nil afterDelay:2];//2秒后执行TheAnimation
+}
 
+#pragma mark - 上升效果
+- (void)ToUpSide {
+    
+    [self moveToUpSide];//向上拉界面
+    
+}
+
+- (void)moveToUpSide {
+    [UIView animateWithDuration:0.7 //速度0.7秒
+                     animations:^{//修改rView坐标
+                         rView.frame = CGRectMake(self.window.frame.origin.x,
+                                                  -self.window.frame.size.height,
+                                                  self.window.frame.size.width,
+                                                  self.window.frame.size.height);
+                     }
+                     completion:^(BOOL finished){
+                     }];
+    
+}
+
+#pragma mark RESideMenu Delegate
+
+- (void)sideMenu:(RESideMenu *)sideMenu willShowMenuViewController:(UIViewController *)menuViewController
+{
+    NSLog(@"willShowMenuViewController");
+}
+
+- (void)sideMenu:(RESideMenu *)sideMenu didShowMenuViewController:(UIViewController *)menuViewController
+{
+    NSLog(@"didShowMenuViewController");
+}
+
+- (void)sideMenu:(RESideMenu *)sideMenu willHideMenuViewController:(UIViewController *)menuViewController
+{
+    NSLog(@"willHideMenuViewController");
+}
+
+- (void)sideMenu:(RESideMenu *)sideMenu didHideMenuViewController:(UIViewController *)menuViewController
+{
+    NSLog(@"didHideMenuViewController");
+}
+
+#pragma mark -
 - (void)applicationWillResignActive:(UIApplication *)application
 {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

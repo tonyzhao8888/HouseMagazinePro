@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		104E18EC183DD0DE00B388AF /* DEMOThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 104E18EB183DD0DE00B388AF /* DEMOThirdViewController.m */; };
 		108882F8183C855E005FDD9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 108882F7183C855E005FDD9A /* Foundation.framework */; };
 		108882FA183C855E005FDD9A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 108882F9183C855E005FDD9A /* CoreGraphics.framework */; };
 		108882FC183C855E005FDD9A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 108882FB183C855E005FDD9A /* UIKit.framework */; };
@@ -19,6 +20,21 @@
 		10888313183C855E005FDD9A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 108882FB183C855E005FDD9A /* UIKit.framework */; };
 		1088831B183C855E005FDD9A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 10888319183C855E005FDD9A /* InfoPlist.strings */; };
 		1088831D183C855E005FDD9A /* HouseMagazineProTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1088831C183C855E005FDD9A /* HouseMagazineProTests.m */; };
+		10888327183C8579005FDD9A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10888326183C8579005FDD9A /* QuartzCore.framework */; };
+		10888329183C8582005FDD9A /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 10888328183C8582005FDD9A /* libxml2.dylib */; };
+		10888330183C8657005FDD9A /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 1088832F183C8657005FDD9A /* GDataXMLNode.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		10888331183C8657005FDD9A /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 1088832F183C8657005FDD9A /* GDataXMLNode.m */; };
+		1088833D183C86CB005FDD9A /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 10888338183C86CB005FDD9A /* RECommonFunctions.m */; };
+		1088833E183C86CB005FDD9A /* RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 1088833A183C86CB005FDD9A /* RESideMenu.m */; };
+		1088833F183C86CB005FDD9A /* UIViewController+RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 1088833C183C86CB005FDD9A /* UIViewController+RESideMenu.m */; };
+		1088834B183C86EF005FDD9A /* DEMOMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10888346183C86EF005FDD9A /* DEMOMenuViewController.m */; };
+		1088834C183C86EF005FDD9A /* DEMOSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10888348183C86EF005FDD9A /* DEMOSecondViewController.m */; };
+		10888355183C90C8005FDD9A /* MenuBG.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 10888354183C90C8005FDD9A /* MenuBG.JPG */; };
+		10888359183C9518005FDD9A /* NavBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 10888358183C9517005FDD9A /* NavBG.png */; };
+		10888365183C9B99005FDD9A /* DEMOFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10888363183C9B99005FDD9A /* DEMOFirstViewController.m */; };
+		10888366183C9B99005FDD9A /* DEMOFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10888364183C9B99005FDD9A /* DEMOFirstViewController.xib */; };
+		10888387183CA5D7005FDD9A /* f.png in Resources */ = {isa = PBXBuildFile; fileRef = 10888385183CA5D7005FDD9A /* f.png */; };
+		10888388183CA5D7005FDD9A /* z.png in Resources */ = {isa = PBXBuildFile; fileRef = 10888386183CA5D7005FDD9A /* z.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +48,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		104E18EA183DD0DE00B388AF /* DEMOThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEMOThirdViewController.h; sourceTree = "<group>"; };
+		104E18EB183DD0DE00B388AF /* DEMOThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEMOThirdViewController.m; sourceTree = "<group>"; };
 		108882F4183C855E005FDD9A /* HouseMagazinePro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HouseMagazinePro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		108882F7183C855E005FDD9A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		108882F9183C855E005FDD9A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +66,27 @@
 		10888318183C855E005FDD9A /* HouseMagazineProTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HouseMagazineProTests-Info.plist"; sourceTree = "<group>"; };
 		1088831A183C855E005FDD9A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1088831C183C855E005FDD9A /* HouseMagazineProTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HouseMagazineProTests.m; sourceTree = "<group>"; };
+		10888326183C8579005FDD9A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		10888328183C8582005FDD9A /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		1088832E183C8657005FDD9A /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataXMLNode.h; sourceTree = "<group>"; };
+		1088832F183C8657005FDD9A /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataXMLNode.m; sourceTree = "<group>"; };
+		10888337183C86CB005FDD9A /* RECommonFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RECommonFunctions.h; sourceTree = "<group>"; };
+		10888338183C86CB005FDD9A /* RECommonFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RECommonFunctions.m; sourceTree = "<group>"; };
+		10888339183C86CB005FDD9A /* RESideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RESideMenu.h; sourceTree = "<group>"; };
+		1088833A183C86CB005FDD9A /* RESideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RESideMenu.m; sourceTree = "<group>"; };
+		1088833B183C86CB005FDD9A /* UIViewController+RESideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RESideMenu.h"; sourceTree = "<group>"; };
+		1088833C183C86CB005FDD9A /* UIViewController+RESideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RESideMenu.m"; sourceTree = "<group>"; };
+		10888345183C86EF005FDD9A /* DEMOMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEMOMenuViewController.h; sourceTree = "<group>"; };
+		10888346183C86EF005FDD9A /* DEMOMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEMOMenuViewController.m; sourceTree = "<group>"; };
+		10888347183C86EF005FDD9A /* DEMOSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEMOSecondViewController.h; sourceTree = "<group>"; };
+		10888348183C86EF005FDD9A /* DEMOSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEMOSecondViewController.m; sourceTree = "<group>"; };
+		10888354183C90C8005FDD9A /* MenuBG.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MenuBG.JPG; sourceTree = "<group>"; };
+		10888358183C9517005FDD9A /* NavBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NavBG.png; sourceTree = "<group>"; };
+		10888362183C9B99005FDD9A /* DEMOFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEMOFirstViewController.h; sourceTree = "<group>"; };
+		10888363183C9B99005FDD9A /* DEMOFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEMOFirstViewController.m; sourceTree = "<group>"; };
+		10888364183C9B99005FDD9A /* DEMOFirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DEMOFirstViewController.xib; sourceTree = "<group>"; };
+		10888385183CA5D7005FDD9A /* f.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = f.png; sourceTree = "<group>"; };
+		10888386183CA5D7005FDD9A /* z.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = z.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +94,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10888329183C8582005FDD9A /* libxml2.dylib in Frameworks */,
+				10888327183C8579005FDD9A /* QuartzCore.framework in Frameworks */,
 				108882FA183C855E005FDD9A /* CoreGraphics.framework in Frameworks */,
 				108882FC183C855E005FDD9A /* UIKit.framework in Frameworks */,
 				108882F8183C855E005FDD9A /* Foundation.framework in Frameworks */,
@@ -77,6 +118,9 @@
 		108882EB183C855E005FDD9A = {
 			isa = PBXGroup;
 			children = (
+				1088832C183C8601005FDD9A /* Resources */,
+				1088832B183C85FA005FDD9A /* Classes */,
+				1088832A183C85F0005FDD9A /* ThirdParty */,
 				108882FD183C855E005FDD9A /* HouseMagazinePro */,
 				10888316183C855E005FDD9A /* HouseMagazineProTests */,
 				108882F6183C855E005FDD9A /* Frameworks */,
@@ -96,6 +140,8 @@
 		108882F6183C855E005FDD9A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				10888328183C8582005FDD9A /* libxml2.dylib */,
+				10888326183C8579005FDD9A /* QuartzCore.framework */,
 				108882F7183C855E005FDD9A /* Foundation.framework */,
 				108882F9183C855E005FDD9A /* CoreGraphics.framework */,
 				108882FB183C855E005FDD9A /* UIKit.framework */,
@@ -142,6 +188,104 @@
 				10888319183C855E005FDD9A /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1088832A183C85F0005FDD9A /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				10888332183C869B005FDD9A /* ResideManu */,
+				1088832D183C862C005FDD9A /* GDataNode */,
+			);
+			name = ThirdParty;
+			sourceTree = "<group>";
+		};
+		1088832B183C85FA005FDD9A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				10888336183C86B5005FDD9A /* CustomBasicClass */,
+				10888335183C86B0005FDD9A /* Controller */,
+				10888334183C86AB005FDD9A /* View */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1088832C183C8601005FDD9A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				10888385183CA5D7005FDD9A /* f.png */,
+				10888386183CA5D7005FDD9A /* z.png */,
+				10888358183C9517005FDD9A /* NavBG.png */,
+				10888354183C90C8005FDD9A /* MenuBG.JPG */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1088832D183C862C005FDD9A /* GDataNode */ = {
+			isa = PBXGroup;
+			children = (
+				1088832E183C8657005FDD9A /* GDataXMLNode.h */,
+				1088832F183C8657005FDD9A /* GDataXMLNode.m */,
+			);
+			name = GDataNode;
+			sourceTree = "<group>";
+		};
+		10888332183C869B005FDD9A /* ResideManu */ = {
+			isa = PBXGroup;
+			children = (
+				10888337183C86CB005FDD9A /* RECommonFunctions.h */,
+				10888338183C86CB005FDD9A /* RECommonFunctions.m */,
+				10888339183C86CB005FDD9A /* RESideMenu.h */,
+				1088833A183C86CB005FDD9A /* RESideMenu.m */,
+				1088833B183C86CB005FDD9A /* UIViewController+RESideMenu.h */,
+				1088833C183C86CB005FDD9A /* UIViewController+RESideMenu.m */,
+				10888333183C86A6005FDD9A /* Model */,
+			);
+			name = ResideManu;
+			sourceTree = "<group>";
+		};
+		10888333183C86A6005FDD9A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		10888334183C86AB005FDD9A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		10888335183C86B0005FDD9A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				10888340183C86D7005FDD9A /* Classcode */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		10888336183C86B5005FDD9A /* CustomBasicClass */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = CustomBasicClass;
+			sourceTree = "<group>";
+		};
+		10888340183C86D7005FDD9A /* Classcode */ = {
+			isa = PBXGroup;
+			children = (
+				10888345183C86EF005FDD9A /* DEMOMenuViewController.h */,
+				10888346183C86EF005FDD9A /* DEMOMenuViewController.m */,
+				10888347183C86EF005FDD9A /* DEMOSecondViewController.h */,
+				10888348183C86EF005FDD9A /* DEMOSecondViewController.m */,
+				10888362183C9B99005FDD9A /* DEMOFirstViewController.h */,
+				10888363183C9B99005FDD9A /* DEMOFirstViewController.m */,
+				10888364183C9B99005FDD9A /* DEMOFirstViewController.xib */,
+				104E18EA183DD0DE00B388AF /* DEMOThirdViewController.h */,
+				104E18EB183DD0DE00B388AF /* DEMOThirdViewController.m */,
+			);
+			name = Classcode;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,7 +364,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10888387183CA5D7005FDD9A /* f.png in Resources */,
+				10888388183CA5D7005FDD9A /* z.png in Resources */,
+				10888366183C9B99005FDD9A /* DEMOFirstViewController.xib in Resources */,
+				10888355183C90C8005FDD9A /* MenuBG.JPG in Resources */,
 				10888302183C855E005FDD9A /* InfoPlist.strings in Resources */,
+				10888359183C9518005FDD9A /* NavBG.png in Resources */,
 				1088830A183C855E005FDD9A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,8 +389,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10888365183C9B99005FDD9A /* DEMOFirstViewController.m in Sources */,
+				104E18EC183DD0DE00B388AF /* DEMOThirdViewController.m in Sources */,
 				10888304183C855E005FDD9A /* main.m in Sources */,
+				1088834B183C86EF005FDD9A /* DEMOMenuViewController.m in Sources */,
 				10888308183C855E005FDD9A /* MYLAppDelegate.m in Sources */,
+				10888330183C8657005FDD9A /* GDataXMLNode.m in Sources */,
+				1088833E183C86CB005FDD9A /* RESideMenu.m in Sources */,
+				1088834C183C86EF005FDD9A /* DEMOSecondViewController.m in Sources */,
+				1088833D183C86CB005FDD9A /* RECommonFunctions.m in Sources */,
+				1088833F183C86CB005FDD9A /* UIViewController+RESideMenu.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +407,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1088831D183C855E005FDD9A /* HouseMagazineProTests.m in Sources */,
+				10888331183C8657005FDD9A /* GDataXMLNode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,6 +520,10 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HouseMagazinePro/HouseMagazinePro-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDK_DIR)/usr/include/libxml2",
+				);
 				INFOPLIST_FILE = "HouseMagazinePro/HouseMagazinePro-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -375,6 +537,10 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HouseMagazinePro/HouseMagazinePro-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDK_DIR)/usr/include/libxml2",
+				);
 				INFOPLIST_FILE = "HouseMagazinePro/HouseMagazinePro-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -442,6 +608,7 @@
 				10888322183C855E005FDD9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		10888323183C855E005FDD9A /* Build configuration list for PBXNativeTarget "HouseMagazineProTests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +617,7 @@
 				10888325183C855E005FDD9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
