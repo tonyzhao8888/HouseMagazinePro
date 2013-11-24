@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>09885FA8-359D-4EED-81E1-6BD86BF3173C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>HouseMagazinePro</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D9FD207C-400D-4057-AD10-E34B3D72D6C7</key>
+		<string>https://github.com/tonyzhao8888/HouseMagazinePro.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>HouseMagazinePro.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D9FD207C-400D-4057-AD10-E34B3D72D6C7</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/tonyzhao8888/HouseMagazinePro.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D9FD207C-400D-4057-AD10-E34B3D72D6C7</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D9FD207C-400D-4057-AD10-E34B3D72D6C7</string>
+			<key>IDESourceControlWCCName</key>
+			<string>HouseMagazinePro</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -9,18 +9,46 @@
 #import "DEMOMenuViewController.h"
 #import "DEMOFirstViewController.h"
 #import "DEMOSecondViewController.h"
+#import <UIKit/UIKit.h>
 
 @interface DEMOMenuViewController ()
 
 @property (strong, readwrite, nonatomic) UITableView *tableView;
+//下拉控件
+@property (strong, nonatomic) IBOutlet UIRefreshControl *refreshControl;
+
+
+@property (nonatomic, retain) NSMutableArray *arrayResult;
+
+@property (nonatomic, retain) NSMutableArray *arrayPrice;
+
+@property (nonatomic, retain) NSMutableArray *arrayImage;
+
+@property (nonatomic, retain) NSMutableArray *arrayUseid;
 
 @end
 
 @implementation DEMOMenuViewController
+@synthesize arrayResult,arrayPrice,arrayImage,arrayUseid;
+@synthesize refreshControl;
+
+//- (id)initWithStyle:(UITableViewStyle)style
+//{
+//    self = [super initWithStyle:style];
+//    if (self) {
+//        // Custom initialization
+//    }
+//    return self;
+//}
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+   // [self setBackBarItem];
+  //  self.title = @"搜索结果";
+    //表格控制器类中，编写“下拉刷新代码”
+    //如果下拉动作触发，再次获取一次数据
+//    [self.refreshControl addTarget:self action:@selector(loadLatestTmallTemaiItemsSearch) forControlEvents:UIControlEventValueChanged];
     self.tableView = ({
         UITableView *tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, (self.view.frame.size.height - 54 * 5) / 2.0f, self.view.frame.size.width, 54 * 5) style:UITableViewStylePlain];
         tableView.autoresizingMask = UIViewAutoresizingFlexibleTopMargin | UIViewAutoresizingFlexibleBottomMargin | UIViewAutoresizingFlexibleWidth;
@@ -104,5 +132,20 @@
 {
     return UIStatusBarStyleLightContent;
 }
+
+//#pragma mark - 使用GCD和下拉刷新功能
+//-(void)loadLatestTmallTemaiItemsSearch{
+//    [self.refreshControl beginRefreshing];
+//    dispatch_queue_t loaderQ = dispatch_queue_create("TmallItemsSearchLoader", NULL);
+//    dispatch_async(loaderQ, ^{
+//        //重新获取表格数据，这里为了演示效果，线程延时2秒
+//        //[self getData]
+//        [NSThread sleepForTimeInterval:100];
+//        
+//        //停止刷新
+//        [self.refreshControl endRefreshing];
+//    });
+//}
+
 
 @end

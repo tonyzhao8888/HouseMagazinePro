@@ -29,10 +29,10 @@
     [self.window makeKeyAndVisible];
     
     fView =[[UIImageView alloc]initWithFrame:self.window.frame];//初始化fView
-    fView.image=[UIImage imageNamed:@"f.png"];//图片f.png 到fView
+    fView.image=[UIImage imageNamed:@"first.png"];//图片f.png 到fView
     
     zView=[[UIImageView alloc]initWithFrame:self.window.frame];//初始化zView
-    zView.image=[UIImage imageNamed:@"z.png"];//图片z.png 到zView
+    zView.image=[UIImage imageNamed:@"loading.png"];//图片loading.png 到zView
     
     rView=[[UIView alloc]initWithFrame:self.window.frame];//初始化rView
     
